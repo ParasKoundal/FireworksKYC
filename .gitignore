@@ -1,0 +1,56 @@
+# Environment variables
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output
+output/
+results/
+*.log
+
+# Verification history (contains PII)
+verification_history.json
+
+# Don't ignore package.json if it exists
+!package.json
+!**/package.json
+
+# Test documents
+test_documents/
+sample_documents/
+
+# OS
+.DS_Store
+Thumbs.db
